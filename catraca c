@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+float cartaodepassagem;
+printf("aproxime o cartao na catraca\n");
+scanf("%f",&cartaodepassagem);
+if(cartaodepassagem>=5.90){
+printf("catraca liberada\n");
+}
+else{
+printf("saldo insuficiente\n");
+}
+}
